@@ -35,10 +35,10 @@ export default class App extends Component {
 						})
 					}
 				</ul>
-				<p>{this.state.address}, {this.state.address2}<br />
-				{this.state.city}, {this.state.state} {this.state.zip}</p>
-				<p>{this.state.phone} </p>
-				<p>{this.state.webAddress}</p>
+				<a>{this.state.address}, {this.state.address2}<br />
+				{this.state.city}, {this.state.state} {this.state.zip}</a>
+				<a>{this.state.phone} </a>
+				<a>{this.state.webAddress}</a>
 			</div>
 		);
 	}
