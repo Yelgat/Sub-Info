@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# hide package-lock.json
+package-lock.json
+
+# hide bundle
+bundle.js
+
+# hide DS_Store
+.DS_Store

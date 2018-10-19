@@ -1,0 +1,42 @@
+{
+  "name": "sub-info",
+  "version": "1.0.0",
+  "description": "The side menu with information such as hours and location for a restaurant or shop.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yelgat/Sub-Info.git"
+  },
+  "author": "Kevin Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yelgat/Sub-Info/issues"
+  },
+  "homepage": "https://github.com/Yelgat/Sub-Info#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "file-loader": "^2.0.0",
+    "font-awesome": "^4.7.0",
+    "path": "^0.12.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-fontawesome": "^1.6.1",
+    "url-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
