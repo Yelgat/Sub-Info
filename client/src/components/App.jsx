@@ -8,13 +8,13 @@ export default class App extends Component {
 
 		this.state = {
 			hours: {
+				Sunday: '12:00pm - 3:00pm',
 				Monday: '10:30am - 5:30pm',
 				Tuesday: '10:30am - 5:30pm',
 				Wednesday: '10:30am - 5:30pm',
 				Thursday: '10:30am - 5:30pm',
 				Friday: '10:30am - 5:30pm',
-				Saturday: 'Closed',
-				Sunday: '12:00pm - 3:00pm',
+				Saturday: 'Closed'
 			},
 			address: '123 Fake Street',
 			address2: 'Suite 4',
@@ -35,10 +35,10 @@ export default class App extends Component {
 						})
 					}
 				</ul>
-				<a>{this.state.address}, {this.state.address2}<br />
-				{this.state.city}, {this.state.state} {this.state.zip}</a>
-				<a>{this.state.phone} </a>
-				<a>{this.state.webAddress}</a>
+				<p><a>{this.state.address}, {this.state.address2}<br />
+				{this.state.city}, {this.state.state} {this.state.zip}</a></p>
+				<p><a>{this.state.phone} </a></p>
+				<p><a>{this.state.webAddress}</a></p>
 			</div>
 		);
 	}
